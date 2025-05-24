@@ -15,11 +15,29 @@ EditorBuildSettings:
     path: Assets/Scenes/HUD.unity
     guid: f76afb0982b05664dbfade043acdad00
   - enabled: 1
-    path: Assets/Scenes/Test/DoorTest.unity
+    path: Assets/Scenes/Test/DoorTest 0.unity
     guid: 89deb95ae0af5b24f99b8c554f7bd8bd
   - enabled: 1
     path: Assets/Scenes/Test/DoorTest 1.unity
     guid: 4313619e0217f3d4397521a041db37bf
+  - enabled: 1
+    path: Assets/Scenes/Test/DoorTest 2.unity
+    guid: fcf559c566f2bb94daad9d3514e6d5bb
+  - enabled: 1
+    path: Assets/Scenes/Levels/Prison.unity
+    guid: 1d3a6f6a9c06ead4db19fdd65a9d2021
+  - enabled: 1
+    path: Assets/Scenes/Levels/Room 16x16.unity
+    guid: 5eeb948a201bbe747a2c851abc4268f8
+  - enabled: 1
+    path: Assets/Scenes/Levels/Room 16x16 1.unity
+    guid: afa435e720275274dbf11d4a3dc98aff
+  - enabled: 1
+    path: Assets/Scenes/Levels/Room 16x32.unity
+    guid: c01ca2aa634f92f438f9f24358175a4a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Room 16x32 prefab 1.unity
+    guid: cb74c9a0a9295514a88991691ebe12c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
