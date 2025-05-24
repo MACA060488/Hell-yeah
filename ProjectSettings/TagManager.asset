@@ -9,6 +9,7 @@ TagManager:
   - Entrance
   - NPC
   - GameManager
+  - Enemy
   layers:
   - Default
   - TransparentFX
