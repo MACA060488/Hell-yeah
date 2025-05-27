@@ -27,16 +27,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Prison.unity
     guid: 1d3a6f6a9c06ead4db19fdd65a9d2021
   - enabled: 1
-    path: Assets/Scenes/Levels/Room 16x16.unity
+    path: Assets/Scenes/Levels/P1.unity
     guid: 5eeb948a201bbe747a2c851abc4268f8
   - enabled: 1
-    path: Assets/Scenes/Levels/Room 16x16 1.unity
+    path: Assets/Scenes/Levels/P5.unity
     guid: afa435e720275274dbf11d4a3dc98aff
   - enabled: 1
-    path: Assets/Scenes/Levels/Room 16x32.unity
+    path: Assets/Scenes/Levels/P2.unity
     guid: c01ca2aa634f92f438f9f24358175a4a
   - enabled: 1
-    path: Assets/Scenes/Levels/Room 16x32 prefab 1.unity
+    path: Assets/Scenes/Levels/P3.unity
     guid: cb74c9a0a9295514a88991691ebe12c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
