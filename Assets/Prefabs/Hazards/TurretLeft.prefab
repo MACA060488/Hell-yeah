@@ -66,7 +66,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 80d909d1462cb7c43b8937ac1d797895, type: 2}
+    - {fileID: 11400000, guid: fb1a8d3dbb148004fb97bd1d872a862e, type: 2}
 --- !u!61 &3194064320012866838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -210,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7207780849062929517}
   m_Layer: 0
-  m_Name: Turret
+  m_Name: TurretLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

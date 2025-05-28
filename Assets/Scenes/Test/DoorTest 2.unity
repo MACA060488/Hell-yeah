@@ -287,7 +287,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &175362217
+--- !u!1001 &154315751
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -295,87 +295,79 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 78328646117271773, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 1491075192164901852, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_Name
-      value: CrossSceneGate
+      value: Door
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 2504493474521800807, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.5
+      value: -3.02
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4031219273813274323, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ID","value":{"$content":"2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4652928758780539572, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TargetScene","value":{"$content":"DoorTest
+        0","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SceneSpawnPointID","value":{"$content":"2_0","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CurrentScene","value":{"$content":"DoorTest
+        2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpawnPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FoundSpawnPoint","value":null,"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22
+      value: 0.74
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0064364765
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1971722837173357595, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 4972704255390619675, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2184584586262357102, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"SceneToLoad","value":{"$content":"DoorTest
-        0","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SceneEntrance","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerEntering","value":{"$content":"Room
-        0","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerLeft","value":{"$content":"Room
-        2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2184584586262357102, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2184584586262357102, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[0]'
-      value: 
-      objectReference: {fileID: 175362218}
-    - target: {fileID: 6915282762198074562, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8826076266309705830, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
+    - target: {fileID: 6513790254483893715, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
       propertyPath: m_Name
-      value: Entrance0
+      value: 0_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
---- !u!1 &175362218 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8826076266309705830, guid: e04706770ad24c843b174cea2c6e978b, type: 3}
-  m_PrefabInstance: {fileID: 175362217}
-  m_PrefabAsset: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: b20dfe09a9c0fe14ba685fdc79f89d30, type: 3}
 --- !u!1 &226419101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,7 +1756,6 @@ SceneRoots:
   - {fileID: 226419104}
   - {fileID: 858071630}
   - {fileID: 2950624902032067835}
-  - {fileID: 175362217}
   - {fileID: 1256600612}
   - {fileID: 1028487809}
   - {fileID: 268771106}
@@ -1773,3 +1764,4 @@ SceneRoots:
   - {fileID: 2062544382}
   - {fileID: 597812522}
   - {fileID: 139662390}
+  - {fileID: 154315751}

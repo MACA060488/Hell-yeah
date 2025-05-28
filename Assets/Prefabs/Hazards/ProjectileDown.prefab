@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2920625568012233690}
   - component: {fileID: 9205160238392034755}
   m_Layer: 7
-  m_Name: Projectile
+  m_Name: ProjectileDown
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,13 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3446071797162230398}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.54, y: -0.4, z: 0.051324725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &5780202132844450941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 7390d15eea27c304ba589abccf71f8d5, type: 2}
+    - {fileID: 11400000, guid: 00b3213023a898c43b7eb34bfd9600a8, type: 2}
 --- !u!61 &9205160238392034755
 BoxCollider2D:
   m_ObjectHideFlags: 0

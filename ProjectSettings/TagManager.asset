@@ -10,6 +10,9 @@ TagManager:
   - NPC
   - GameManager
   - Enemy
+  - SpawnPoint
+  - SceneManager
+  - Door
   layers:
   - Default
   - TransparentFX
