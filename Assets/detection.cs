@@ -18,4 +18,13 @@ public class EnemyFollow2D_Rigidbody : MonoBehaviour
             rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
         }
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Останавливаем движение по X, оставляем вертикальную скорость
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        }
+    }
 }
