@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d44389cdf7c49c4a9978b482881ea6a
+guid: 787f3f729eac60f46836dd262643e2f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2965334332783168791
-    second: SPR_char_glide3_0
+      213: 1724081466088813729
+    second: wings_in_03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPR_char_glide3_0
+      name: wings_in_03_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 29
-        width: 62
-        height: 34
+        x: 18
+        y: 0
+        width: 32
+        height: 20
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71d8fc95ddbf62920800000000000000
-      internalID: 2965334332783168791
+      spriteID: 1a4fe0675fa2de710800000000000000
+      internalID: 1724081466088813729
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ac4ea422e74c58e45962d3bc697cbcfe
+    spriteID: 0af3b7574a3d84e408f7212f2e7541b6
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SPR_char_glide3_0: 2965334332783168791
+      wings_in_03_0: 1724081466088813729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

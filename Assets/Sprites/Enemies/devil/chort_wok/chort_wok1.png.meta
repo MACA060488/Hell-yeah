@@ -103,12 +103,12 @@ TextureImporter:
       name: chort_wok1_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 31
-        width: 26
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 23
+        y: 32
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f2add62ea402f564d98906ee7c30ee17
     internalID: 0
     vertices: []
     indices: 
