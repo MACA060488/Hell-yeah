@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/DialogueZone.prefab.meta
 guid: 991e2ec2f6cb342fda876bbc7e45d17b
+========
+guid: 920655390e18a4146a003bc9aa5e8eb7
+>>>>>>>> main:Assets/Prefabs/Money.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

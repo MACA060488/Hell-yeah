@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Projectile.prefab.meta
 guid: c6dd6614f664ddc4dad53fd8b86ce4d9
+========
+guid: 9535aa240dc326f4f9571fcb2f47ccb2
+>>>>>>>> main:Assets/Prefabs/SafePoint.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

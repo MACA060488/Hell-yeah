@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Money.prefab.meta
 guid: 920655390e18a4146a003bc9aa5e8eb7
+========
+guid: c6dd6614f664ddc4dad53fd8b86ce4d9
+>>>>>>>> main:Assets/Prefabs/Projectile.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
