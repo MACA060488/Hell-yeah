@@ -8,6 +8,8 @@ TagManager:
   - Weapon
   - Entrance
   - NPC
+  - GameManager
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Invulnerable
   - Enemy
   - Npc
-  - Ground
+  - Interactable
   - 
   - 
   - 
@@ -44,6 +46,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1139941993
+    locked: 0
+  - name: Foreground
+    uniqueID: 3625975733
+    locked: 0
+  - name: Player
+    uniqueID: 3012289123
+    locked: 0
+  - name: BlackScreen
+    uniqueID: 3925965227
     locked: 0
   m_RenderingLayers:
   - Default
