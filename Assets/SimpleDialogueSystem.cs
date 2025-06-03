@@ -54,9 +54,11 @@ public class SimpleDialogueSystem : MonoBehaviour
 
         if (option1ButtonText != null)
             option1ButtonText.text = option1Label;
-
         if (option2ButtonText != null)
             option2ButtonText.text = option2Label;
+
+        option1Button.gameObject.SetActive(!string.IsNullOrWhiteSpace(option1ResultText));
+        option2Button.gameObject.SetActive(!string.IsNullOrWhiteSpace(option2ResultText));
 
         option1Button.onClick.AddListener(() => ShowResponse(option1ResultText));
         option2Button.onClick.AddListener(() => ShowResponse(option2ResultText));
@@ -78,7 +80,10 @@ public class SimpleDialogueSystem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerNear = true;
-            interactionHintObject.SetActive(true);
+            if (!string.IsNullOrWhiteSpace(interactionHintString))
+            {
+                interactionHintObject.SetActive(true);
+            }
         }
     }
 
@@ -94,12 +99,14 @@ public class SimpleDialogueSystem : MonoBehaviour
 
     private void StartDialogue()
     {
+        if (string.IsNullOrWhiteSpace(initialText)) return;
+
         isDialogueActive = true;
         interactionHintObject.SetActive(false);
         dialoguePanel.SetActive(true);
 
-        option1Button.gameObject.SetActive(true);
-        option2Button.gameObject.SetActive(true);
+        option1Button.gameObject.SetActive(!string.IsNullOrWhiteSpace(option1ResultText));
+        option2Button.gameObject.SetActive(!string.IsNullOrWhiteSpace(option2ResultText));
 
         if (typingCoroutine != null) StopCoroutine(typingCoroutine);
         typingCoroutine = StartCoroutine(TypeText(initialText));
@@ -107,6 +114,12 @@ public class SimpleDialogueSystem : MonoBehaviour
 
     private void ShowResponse(string responseText)
     {
+        if (string.IsNullOrWhiteSpace(responseText))
+        {
+            dialoguePanel.SetActive(false);
+            return;
+        }
+
         if (typingCoroutine != null) StopCoroutine(typingCoroutine);
         typingCoroutine = StartCoroutine(TypeText(responseText));
 
