@@ -15,6 +15,10 @@ TagManager:
   - Door
   - Music
   - crutch
+  - UI
+  - BossSpikes
+  - BossMinion
+  - DeadEnd
   layers:
   - Default
   - TransparentFX

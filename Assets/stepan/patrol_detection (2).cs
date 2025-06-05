@@ -47,15 +47,24 @@ public class EnemyAI : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // Начать следовать за игроком
         if (other.CompareTag("Player"))
         {
             isFollowingPlayer = true;
             player = other.transform;
         }
+
+        // Вернуться к патрулю, если вошли в зону "DeadEnd"
+        if (other.CompareTag("DeadEnd") && isFollowingPlayer)
+        {
+            isFollowingPlayer = false;
+            player = null;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        // Прекратить следование за игроком, если он вышел
         if (other.CompareTag("Player"))
         {
             isFollowingPlayer = false;
