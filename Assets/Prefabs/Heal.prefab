@@ -115,7 +115,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 40.89, y: 1.111493, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8099437158990820101}
@@ -162,10 +162,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1282678173
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3886443268029631212, guid: 3bc3a59dbd522e940814fff8f6c54644, type: 3}
+  m_Sprite: {fileID: -7205709288800886465, guid: b2c2dd3d758040047833ed93317077c1, type: 3}
   m_Color: {r: 0, g: 1, b: 0.048674583, a: 1}
   m_FlipX: 0
   m_FlipY: 0
