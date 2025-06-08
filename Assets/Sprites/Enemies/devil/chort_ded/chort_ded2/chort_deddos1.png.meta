@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chort_deddos1_0: -2536816819130095851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
